@@ -5,11 +5,15 @@ VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogMicrosservices", "CatalogMicrosservices.csproj", "{AB4016C7-250B-4249-98FD-8AE1D36218D4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "API\Catalog.API.csproj", "{61B6366E-E393-48AC-9DAC-3599418C7752}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Catalog.API\Catalog.API.csproj", "{61B6366E-E393-48AC-9DAC-3599418C7752}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D9D64E7C-ED48-4CEA-AD0D-5C00355CE998}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.API", "Basket.API\Basket.API.csproj", "{3A71D677-A58D-4A9C-9C3C-49234B9BBD95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Basket.API\Basket.API.csproj", "{3A71D677-A58D-4A9C-9C3C-49234B9BBD95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.API", "Discount.API\Discount.API.csproj", "{DCD08533-6B60-45F6-92D4-7C70EE8C7E4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.gRPC", "Discount.gRPC\Discount.gRPC.csproj", "{1D995992-B953-4648-B0C1-D8AF07F9F92F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{3A71D677-A58D-4A9C-9C3C-49234B9BBD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A71D677-A58D-4A9C-9C3C-49234B9BBD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A71D677-A58D-4A9C-9C3C-49234B9BBD95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD08533-6B60-45F6-92D4-7C70EE8C7E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD08533-6B60-45F6-92D4-7C70EE8C7E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD08533-6B60-45F6-92D4-7C70EE8C7E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD08533-6B60-45F6-92D4-7C70EE8C7E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D995992-B953-4648-B0C1-D8AF07F9F92F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D995992-B953-4648-B0C1-D8AF07F9F92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D995992-B953-4648-B0C1-D8AF07F9F92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D995992-B953-4648-B0C1-D8AF07F9F92F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
